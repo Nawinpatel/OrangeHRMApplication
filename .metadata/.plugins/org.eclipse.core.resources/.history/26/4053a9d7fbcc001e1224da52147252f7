@@ -1,0 +1,64 @@
+package com.RadioButtonsTesting;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.testng.annotations.Test;
+
+import com.BaseTest.BaseTest;
+
+public class ApplicationEchoEcho extends BaseTest
+	 {
+	     @Test
+		public void RadioButtonsTesting() throws InterruptedException
+		{
+			
+			// <input type="radio" name="group1" value="Milk">
+		       //  <input type="radio" name="group1" value="Butter" checked="">
+		    //     <input type="radio" name="group1" value="Cheese">	
+			
+			//<input type="radio" name="group2" value="Water">
+			//<input type="radio" name="group2" value="Beer">
+			//<input type="radio" name="group2" value="Wine" checked="">
+			
+			By	group1radiobuttonProperty=By.name("group1");
+			List<WebElement>group1radiobutton=driver.findElements(group1radiobuttonProperty);
+			int  group1radiobuttoncount=group1radiobutton.size();
+			System.out.println(group1radiobuttoncount);
+			By group2radiobuttonProperty=By.name("group2");
+			List<WebElement>group2radiobutton=driver.findElements(group2radiobuttonProperty);
+			int group2radiobuttoncount=group2radiobutton.size();
+			System.out.println(group2radiobuttoncount);
+			
+			for(int group1radiobuttonclick=0;group1radiobuttonclick<group1radiobuttoncount;group1radiobuttonclick++)
+			{
+				group1radiobutton.get(group1radiobuttonclick).click();
+			//String 	group1radiobuttonName=group1radiobutton.get(group1radiobuttonclick).getAttribute("value");
+			System.out.println(group1radiobutton.get(0).getAttribute("value")+"|"+group1radiobutton.get(0).getAttribute("checked"));
+			System.out.println(group1radiobutton.get(1).getAttribute("value")+"|"+group1radiobutton.get(1).getAttribute("checked"));
+			System.out.println(group1radiobutton.get(2).getAttribute("value")+"|"+group1radiobutton.get(2).getAttribute("checked"));
+			//group1radiobutton.get(group1radiobuttonclick).click();
+			Thread.sleep(2000); 
+			
+       //system.out.println(group1radiobutton.get(group1radiobuttonclick).getAttribute("value")+""+group1radiobutton.get(group1radiobuttonclick).getAttribute("checked"));
+			
+		  for(int group2radiobuttonclick=group1radiobuttonclick;group2radiobuttonclick==group1radiobuttonclick;group2radiobuttonclick++)
+		{
+			//System.out.println(group2radiobutton.get(group2radiobuttonclick).getAttribute("value"));
+			group2radiobutton.get(group2radiobuttonclick).click();
+			Thread.sleep(2000);
+			System.out.println(	group2radiobutton.get(0).getAttribute("value")+"|"+group2radiobutton.get(0).getAttribute("checked"));
+			System.out.println(	group2radiobutton.get(1).getAttribute("value")+"|"+group2radiobutton.get(1).getAttribute("checked"));
+			System.out.println(	group2radiobutton.get(2).getAttribute("value")+"|"+group2radiobutton.get(2).getAttribute("checked"));
+			//group2radiobutton.get(group2radiobuttonclick).click();
+		}
+			
+			}
+			
+			
+			
+		}
+	}
+
+

@@ -1,0 +1,70 @@
+package com.Orangehrm;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class practise {
+	
+	
+	
+	
+	
+	
+	
+public static void main(String[] args) throws InterruptedException, IOException {
+		
+  
+    /*
+        FileInputStream logInTestDataFile =new FileInputStream("./src/com/Excelfiles/AddEmployeeTestSheet1.xlsx");
+        XSSFWorkbook WorkBook =new XSSFWorkbook(logInTestDataFile);
+        XSSFSheet AddEmployeeData =WorkBook.getSheet("Sheet1");
+    
+        int rowCount=AddEmployeeData.getLastRowNum();//FINDING CELL COUNT
+		    for(int rowIndex=2;rowIndex<=rowCount;rowIndex++){
+			Row testDataSheetRow=AddEmployeeData.getRow(rowIndex);
+			Cell userNameTestDataCell=testDataSheetRow.getCell(3);
+			String userNameTestData=userNameTestDataCell.getStringCellValue();//Getting UserName
+		    Cell rowOfCell=testDataSheetRow.getCell(4);
+		    String passwordTestData=rowOfCell.getStringCellValue();//Getting Password
+		    Cell rowOffCell=testDataSheetRow.getCell(0);
+		    String Loginpanel =rowOffCell.getStringCellValue();//Getting login panel
+		    Cell FirstNameTestDataCell=testDataSheetRow.getCell(14);
+ 		    String FirstNameTestData=FirstNameTestDataCell.getStringCellValue();//Getting First Name
+ 	        Cell MiddleNameTEstDataCell=testDataSheetRow.getCell(15);
+ 	        String MiddleNameTestData=MiddleNameTEstDataCell.getStringCellValue();//Getting Middle Name
+ 	        Cell LastNameTestDataCell=testDataSheetRow.getCell(16);
+ 	        String LastNameTestData=LastNameTestDataCell.getStringCellValue();//Getting Last Name
+ 	        
+ 	        */
+ 	        System.out.println();
+ 	        
+ 	        
+ 	       FileInputStream logInTestDataFile = new FileInputStream("./src/com/Excelfiles/Excel.xlsx");
+ 	  	XSSFWorkbook workBook = new XSSFWorkbook(logInTestDataFile);
+ 	  	XSSFSheet logInTestDataSheet = workBook.getSheet("LogInTestData");
+ 	  	
+ 	          int rowCount=logInTestDataSheet.getLastRowNum();//FINDING CELL COUNT
+ 	  		for(int rowIndex=1;rowIndex<=rowCount;rowIndex++){
+ 	  	    Row testDataSheetRow=logInTestDataSheet.getRow(rowIndex);
+ 	  		Cell userNameTestDataCell=testDataSheetRow.getCell(4);
+ 	  		String userNameTestData=userNameTestDataCell.getStringCellValue();
+ 	  	    Cell rowOfCell=testDataSheetRow.getCell(5);
+ 	  	    String passwordTestData=rowOfCell.getStringCellValue();
+ 	        
+ 	        
+ 	       System.out.println(userNameTestData);
+ 	        
+ 	        
+ 	        
+ 	        
+ 	        
+ 	        
+
+}}}

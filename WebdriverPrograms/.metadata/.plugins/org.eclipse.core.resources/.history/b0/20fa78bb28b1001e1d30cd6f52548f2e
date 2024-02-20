@@ -1,0 +1,98 @@
+package com.practice;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+public class Practice {
+	
+	
+	public static void main(String[] args) {
+		
+		String Facebookurladdress="https://infinity.icicibank.com/corp/AuthenticationController?FORMSGROUP_ID__=AuthenticationFG&__START_TRAN_FLAG__=Y&FG_BUTTONS__=LOAD&ACTION.LOAD=Y&AuthenticationFG.LOGIN_FLAG=1&BANK_ID=ICI&CTA_FLAG=DEPOSIT&ITM=nli_cms_FD_Primer_FDNEWYEARBANNER_OPENANFDNOW_btn&_gl=1*15zgwo8*_ga*MzQyOTMyMzYuMTYzMDQyMjkwMw..*_ga_SKB78GHTFV*MTYzNzE0MTQ1NC43NC4wLjE2MzcxNDE0NjIuNTI.&_ga=2.200612327.895526349.1705048696-2027569498.1705048696";
+		System.setProperty("webdriver.gecko.driver","./browserdriverfiles/geckodriver.exe");
+		   FirefoxDriver Driver = new FirefoxDriver();	
+		   Driver.get(Facebookurladdress);
+		   
+		   
+		   String Expected_FacebookLoginPageTitle="Log in to Internet Banking";
+		   System.out.println("The Expected Title of Facebookloginpagetitle is:-"+Expected_FacebookLoginPageTitle);
+		   
+		   String Actual_FacebookLoginPageTitle=Driver.getTitle();
+		   System.out.println("The Actual Title of Facebookloginpagetitle is:-"+Actual_FacebookLoginPageTitle);
+		   
+		   if(Actual_FacebookLoginPageTitle.equals(Expected_FacebookLoginPageTitle))
+		   {
+			   System.out.println("Successfully Navigated to Facebook login Page:-Pass");
+			  
+		   }
+		   else
+		   {
+			   System.out.println("Failed to Navigate to Facebook Login Page:-Fail ");
+		   }
+		   
+		   
+		    String Expected_FacebookUrlAddress="icicibank.com";
+		    System.out.println("The Expected urladdress of Facebook is:-"+Expected_FacebookUrlAddress);
+		    String Actual_FacebookUrlAddress=Driver.getCurrentUrl();
+		   System.out.println("The Actual Url Address of Facebook is:-"+Actual_FacebookUrlAddress);
+		   
+		   if(Actual_FacebookUrlAddress.contains(Expected_FacebookUrlAddress))
+		   {
+			   System.out.println("icici URL Address is Matched:-Pass");
+			   
+		   }
+		   
+		   else
+			   
+		   {
+			   System.out.println("icici URL Address is Not Matched:-Fail");
+		   }
+		   
+		   
+		   
+		 //  <input type="text" name="AuthenticationFG.USER_PRINCIPAL" title="User Id" size="28" "="" class="login-input type_UserPrincipal""
+		 //  		+ " data-febatype="UserPrincipal" maxlength="65" id="AuthenticationFG.USER_PRINCIPAL" value="" onkeypress="return checkEnter(event);">
+		    By MobileNumber =By.name("AuthenticationFG.USER_PRINCIPAL");
+		    WebElement UserName=Driver.findElement(MobileNumber);
+		    UserName.sendKeys("navi3333");
+		   
+		   // <input type="password" onpaste="return false" oncopy="return false" name="AuthenticationFG.ACCESS_CODE" size="28" 
+		    //		class="login-input-password" id="AuthenticationFG.ACCESS_CODE" title="Password" onkeypress="return checkEnter(event);" 
+		    //		oninput="clickHandler(this.id);" 
+		    //		onclick="clearFunc(this.id);" onfocusout="changeFocus(this.id);" "="" maxlength="128" autocomplete="off"> 
+		   
+		   
+		    By Passwordproperty =By.className("login-input-password");
+		    WebElement Password =Driver.findElement(Passwordproperty);
+		    Password.sendKeys("Navi@3333");
+		   
+		  // <input type="Submit" name="Action.VALIDATE_CREDENTIALS" class="cta" id="VALIDATE_CREDENTIALS1" 
+		 //value="Login" title="Log In" onclick="return feba.js.adaptive.icici.onLoginSubmit(this.id);">
+	
+		   
+		   By LoginButtonProperty =By.name("Action.VALIDATE_CREDENTIALS");
+		   WebElement Login =Driver.findElement(LoginButtonProperty);
+		   Login.click();
+		   
+		   
+		  //
+		   
+		   
+		        //  <div class="_5s61 _6r9_">Log out</div>
+		        //  <a id="HREF_Logout" name="HREF_Logout" class="btn btn-default" 
+		        //		  href="Finacle;jsessionid=0000tebhCvEwAdlygWcasRQBLM0:CR17n40sdm?bwayparam=8U6VlYTKH5sAyPYEuWdGV3EWKSHWVHCITmQhnqvBF7psn%2B%2FepFCUOy8UA1N5o5KfGQOsNih4%2BlDu%0D%0Ag9RwzWHg%2BZeo2piBu8e4ZMysTnb1oShfRx5c00LeOQcRGuCcLIuv"
+		        //		  title="Log Out">Log Out</a> 
+		        		  By LogoutButtonProperty=By.id("HREF_Logout");
+			              WebDriverWait Wait = new WebDriverWait(Driver, 20);
+			              Wait.until(ExpectedConditions.visibilityOfElementLocated(LogoutButtonProperty));
+			              WebElement LogOutButton=Driver.findElement(LogoutButtonProperty);
+			              LogOutButton.click();
+		   
+		   
+			
+	}
+
+}

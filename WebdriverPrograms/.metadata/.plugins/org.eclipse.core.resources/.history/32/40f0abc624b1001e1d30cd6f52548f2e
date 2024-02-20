@@ -1,0 +1,106 @@
+package com.practice;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+public class Practice {
+	
+	
+	public static void main(String[] args) {
+		
+		String Facebookurladdress="https://m.facebook.com/login/?next&ref=dbl&fl&login_from_aymh=1&refid=8";
+		System.setProperty("webdriver.gecko.driver","./browserdriverfiles/geckodriver.exe");
+		   FirefoxDriver Driver = new FirefoxDriver();	
+		   Driver.get(Facebookurladdress);
+		   
+		   
+		   String Expected_FacebookLoginPageTitle="Log in to Facebook | Facebook";
+		   System.out.println("The Expected Title of Facebookloginpagetitle is:-"+Expected_FacebookLoginPageTitle);
+		   
+		   String Actual_FacebookLoginPageTitle=Driver.getTitle();
+		   System.out.println("The Actual Title of Facebookloginpagetitle is:-"+Actual_FacebookLoginPageTitle);
+		   
+		   if(Actual_FacebookLoginPageTitle.contains(Expected_FacebookLoginPageTitle))
+		   {
+			   System.out.println("Successfully Navigated to Facebook login Page:-Pass");
+			  
+		   }
+		   else
+		   {
+			   System.out.println("Failed to Navigate to Facebook Login Page:-Fail ");
+		   }
+		   
+		   
+		    String Expected_FacebookUrlAddress="facebook.com";
+		    System.out.println("The Expected urladdress of Facebook is:-"+Expected_FacebookUrlAddress);
+		    String Actual_FacebookUrlAddress=Driver.getCurrentUrl();
+		   System.out.println("The Actual Url Address of Facebook is:-"+Actual_FacebookUrlAddress);
+		   
+		   if(Actual_FacebookUrlAddress.contains(Expected_FacebookUrlAddress))
+		   {
+			   System.out.println("Facebook URL Address is Matched:-Pass");
+			   
+		   }
+		   
+		   else
+			   
+		   {
+			   System.out.println("Facebook URL Address is Not Matched:-Fail");
+		   }
+		   
+		   
+		   
+		 //  <input autocorrect="off" autocapitalize="none" class="_56bg _4u9z _5ruq _8qtn" autocomplete="on" id="m_login_email" 
+			//	   name="email" placeholder="Mobile number or email address" type="text" data-sigil="m_login_email">
+		   
+		    By MobileNumber =By.name("email");
+		    WebElement UserName=Driver.findElement(MobileNumber);
+		    UserName.sendKeys("8185993333");
+		   
+		   // <input autocorrect="off" autocapitalize="none" class="_56bg _4u9z _27z2 _8qtm" autocomplete="on" id=
+		    //		name="pass" placeholder="Password" type="password" data-sigil="password-plain-text-toggle-input">  
+		   
+		   
+		    By Passwordproperty =By.id("m_login_password" );
+		    WebElement Password =Driver.findElement(Passwordproperty);
+		    Password.sendKeys("Navi@1996");
+		   
+		/*    <button type="button" value="Log In" class="_54k8 _52jh _56bs _56b_ _28lf _9cow _56bw _56bu" 
+		    		name="login" data-sigil="touchable login_button_block m_login_button" 
+		    		data-autoid="autoid_9"><span class="_55sr">Log In</span></button>*/
+		   
+		   
+		   By LoginButtonProperty =By.name("login");
+		   WebElement Login =Driver.findElement(LoginButtonProperty);
+		   Login.click();
+		   
+		   
+		   
+		   
+		  // <div class="_2ftp _62ta"><div class="_59tf _2ftq _7gxv" data-sigil="messenger_icon"><span class="_59tg" 
+		//	   data-sigil="count">0</span></div></div>
+		   
+		          By ProfileButtonProperty =By.className("_59tf _2ftq _7gxv");
+                  WebDriverWait Wait = new WebDriverWait(Driver, 10);
+                  Wait.until(ExpectedConditions.visibilityOfElementLocated(ProfileButtonProperty));
+                  WebElement ProfileButton =Driver.findElement(ProfileButtonProperty);
+		          ProfileButton.click();
+		   
+		   
+		        //  <div class="_5s61 _6r9_">Log out</div>
+		          
+		          By LogoutButtonProperty=By.className("_5s61 _6r9_");
+	              WebDriverWait Waitf = new WebDriverWait(Driver, 20);
+	              Waitf.until(ExpectedConditions.visibilityOfElementLocated(LogoutButtonProperty));
+	              WebElement LogOutButton=Driver.findElement(LogoutButtonProperty);
+	              LogOutButton.click();
+		   
+		   
+		   
+			
+	}
+
+}

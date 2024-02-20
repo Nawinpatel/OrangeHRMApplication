@@ -1,0 +1,34 @@
+package com.webtable;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.testng.annotations.Test;
+
+public class Pratice extends BaseTestWeb {
+
+@Test(priority=1,description=" Capturing Complete WebTable data from World Clock WebTable ")
+public void getting_CompleteWebTableData() {
+
+    By webTableDataProperty = By.xpath("/html/body/div[5]/section[1]/div/section/div[1]/div/table/tbody/tr");
+    WebElement webTableData = driver.findElement(webTableDataProperty);
+
+    By rowslist = By.tagName("tr");
+    List<WebElement> Rows = webTableData.findElements(rowslist);
+
+    for (int rowIndex = 0; rowIndex < Rows.size(); rowIndex++) {
+        By Cells = By.tagName("td");
+        List<WebElement> rowOfcells = Rows.get(rowIndex).findElements(Cells);
+
+        for (int rowOfCellIndex = 0; rowOfCellIndex < rowOfcells.size(); rowOfCellIndex++) {
+            String webTableData_Text = rowOfcells.get(rowOfCellIndex).getText();
+            System.out.print(webTableData_Text + "  ");
+        }
+        System.out.println();
+    }
+}
+
+}
+
+

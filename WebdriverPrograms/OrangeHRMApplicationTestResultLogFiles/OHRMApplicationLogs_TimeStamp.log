@@ -1,0 +1,618 @@
+2024-02-15 09:48:10,447 - Log -INFO - **** Chrome Browser Launched Successfully ********** 
+2024-02-15 09:48:12,226 - Log -INFO -  The Expected Text of the OrangeHRM Application Login Page is :- LOGIN Panel
+2024-02-15 09:48:12,282 - Log -INFO -  The Actual Text of the OrangeHRM Application Login Page is :- LOGIN Panel
+2024-02-15 09:48:12,287 - Log -INFO -  Text Found - Successfully Navigated to OrangeHRM Application LogIn Page - PASS 
+2024-02-15 09:48:12,341 - Log -INFO - The Expected Title Of OrangeHRM Application Login Web page is :-OrangeHRM
+2024-02-15 09:48:12,358 - Log -INFO - The Actual   Title of OrangeHRM Application Login Web page is :-OrangeHRM
+2024-02-15 09:48:12,363 - Log -INFO - SuccessFully Navigated to OrangeHRM Application WebPage:-Pass
+2024-02-15 09:48:14,290 - Log -INFO -  The Expected Text of the OrangeHRM Application HomePage is :- Welcome
+2024-02-15 09:48:14,316 - Log -INFO -  The Actual Text of the OrangeHRM Application HomePage is :- Welcome Admin
+2024-02-15 09:48:14,322 - Log -INFO -  Successfully Navigated to OrangeHRM Application HomePage - PASS 
+2024-02-15 09:48:15,316 - Log -INFO - The text of the Expected webelement employee id is: 0024
+2024-02-15 09:48:21,479 - Log -INFO -  The Expected Text of the OrangeHRM Application Login Page is :- Add Employee
+2024-02-15 09:48:21,508 - Log -INFO -  The Actual Text of the OrangeHRM Application Login Page is :- Add Employee
+2024-02-15 09:48:21,512 - Log -INFO -  Text Found - Successfully Navigated to OrangeHRM Application Add Employee Page - PASS 
+2024-02-15 09:48:27,669 - Log -INFO -  The Expected Text of the OrangeHRM Application PersonalDetails Page is :- Personal Details
+2024-02-15 09:48:27,705 - Log -INFO -  The Actual Text of the OrangeHRM Application PersonalDetailsPage is :- Personal Details
+2024-02-15 09:48:27,710 - Log -INFO -  Text Found - Successfully Navigated to OrangeHRM Application PersonalDetails Page - PASS 
+2024-02-15 09:48:27,750 - Log -INFO - The Actual value of the first name is: Emmadishetty
+2024-02-15 09:48:27,755 - Log -INFO - The Employee First Name Is Matched :-Pass
+2024-02-15 09:48:27,789 - Log -INFO - The Actual value of the Middle name is: Naveen
+2024-02-15 09:48:27,794 - Log -INFO - The Employee Middle Name Is Matched :-Pass
+2024-02-15 09:48:27,831 - Log -INFO - The Actual value of the Last name is: Patel
+2024-02-15 09:48:27,834 - Log -INFO - The Employee Last Name Is Matched :-Pass
+2024-02-15 09:48:27,863 - Log -INFO - The text of the Actual webelement employee id is: 0024
+2024-02-15 09:48:27,867 - Log -INFO - The Employee Id Is Matched :-Pass
+2024-02-15 09:48:28,973 - Log -INFO - The text of the Expected webelement employee id is: 0025
+2024-02-15 09:48:35,063 - Log -INFO -  The Expected Text of the OrangeHRM Application Login Page is :- Add Employee
+2024-02-15 09:48:35,092 - Log -INFO -  The Actual Text of the OrangeHRM Application Login Page is :- Add Employee
+2024-02-15 09:48:35,096 - Log -INFO -  Text Found - Successfully Navigated to OrangeHRM Application Add Employee Page - PASS 
+2024-02-15 09:48:41,246 - Log -INFO -  The Expected Text of the OrangeHRM Application PersonalDetails Page is :- Personal Details
+2024-02-15 09:48:41,277 - Log -INFO -  The Actual Text of the OrangeHRM Application PersonalDetailsPage is :- Personal Details
+2024-02-15 09:48:41,281 - Log -INFO -  Text Found - Successfully Navigated to OrangeHRM Application PersonalDetails Page - PASS 
+2024-02-15 09:48:41,319 - Log -INFO - The Actual value of the first name is: Naveen
+2024-02-15 09:48:41,324 - Log -INFO - The Employee First Name Is Matched :-Pass
+2024-02-15 09:48:41,359 - Log -INFO - The Actual value of the Middle name is: Patel
+2024-02-15 09:48:41,365 - Log -INFO - The Employee Middle Name Is Matched :-Pass
+2024-02-15 09:48:41,400 - Log -INFO - The Actual value of the Last name is: Emmadishetty
+2024-02-15 09:48:41,404 - Log -INFO - The Employee Last Name Is Matched :-Pass
+2024-02-15 09:48:41,440 - Log -INFO - The text of the Actual webelement employee id is: 0025
+2024-02-15 09:48:41,445 - Log -INFO - The Employee Id Is Matched :-Pass
+2024-02-15 09:48:43,019 - Log -INFO - The text of the Expected webelement employee id is: 0026
+2024-02-15 09:48:49,150 - Log -INFO -  The Expected Text of the OrangeHRM Application Login Page is :- Add Employee
+2024-02-15 09:48:49,197 - Log -INFO -  The Actual Text of the OrangeHRM Application Login Page is :- Add Employee
+2024-02-15 09:48:49,204 - Log -INFO -  Text Found - Successfully Navigated to OrangeHRM Application Add Employee Page - PASS 
+2024-02-15 09:48:55,777 - Log -INFO -  The Expected Text of the OrangeHRM Application PersonalDetails Page is :- Personal Details
+2024-02-15 09:48:55,824 - Log -INFO -  The Actual Text of the OrangeHRM Application PersonalDetailsPage is :- Personal Details
+2024-02-15 09:48:55,828 - Log -INFO -  Text Found - Successfully Navigated to OrangeHRM Application PersonalDetails Page - PASS 
+2024-02-15 09:48:55,870 - Log -INFO - The Actual value of the first name is: Patel
+2024-02-15 09:48:55,874 - Log -INFO - The Employee First Name Is Matched :-Pass
+2024-02-15 09:48:55,911 - Log -INFO - The Actual value of the Middle name is: Emmadishetty
+2024-02-15 09:48:55,916 - Log -INFO - The Employee Middle Name Is Matched :-Pass
+2024-02-15 09:48:55,951 - Log -INFO - The Actual value of the Last name is: Naveen
+2024-02-15 09:48:55,955 - Log -INFO - The Employee Last Name Is Matched :-Pass
+2024-02-15 09:48:55,992 - Log -INFO - The text of the Actual webelement employee id is: 0026
+2024-02-15 09:48:55,995 - Log -INFO - The Employee Id Is Matched :-Pass
+2024-02-15 09:49:00,831 - Log -INFO -  The Expected Text of the OrangeHRM Application Login Page After Logout is :- LOGIN Panel
+2024-02-15 09:49:00,879 - Log -INFO -  The Actual Text of the OrangeHRM Application Login Page  After Logout is :- LOGIN Panel
+2024-02-15 09:49:00,884 - Log -INFO -  Successfully Navigated to OrangeHRM Application LogIn Page After Logout- PASS 
+2024-02-15 09:49:01,406 - Log -INFO -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
+2024-02-15 09:51:40,869 - Log -INFO - **** Chrome Browser Launched Successfully ********** 
+2024-02-15 09:51:41,795 - Log -INFO -  The Expected Text of the OrangeHRM Application Login Page is :- LOGIN Panel
+2024-02-15 09:51:41,829 - Log -INFO -  The Actual Text of the OrangeHRM Application Login Page is :- LOGIN Panel
+2024-02-15 09:51:41,835 - Log -INFO -  Text Found - Successfully Navigated to OrangeHRM Application LogIn Page - PASS 
+2024-02-15 09:51:42,990 - Log -INFO -  The Expected Text of the OrangeHRM Application HomePage is :- Welcome
+2024-02-15 09:51:43,014 - Log -INFO -  The Actual Text of the OrangeHRM Application HomePage is :- Welcome Admin
+2024-02-15 09:51:43,019 - Log -INFO -  Successfully Navigated to OrangeHRM Application HomePage - PASS 
+2024-02-15 09:51:45,895 - Log -INFO - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#spanMessage"}
+  (Session info: chrome=121.0.6167.161)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ece1f423416e696e2cc0d60caf871cbb, findElement {using=id, value=spanMessage}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\emmad\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53130}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53130/devtoo..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ece1f423416e696e2cc0d60caf871cbb
+2024-02-15 09:51:45,903 - Log -INFO -  The Expected Text of the OrangeHRM Application Login Page After Logout is :- LOGIN Panel
+2024-02-15 09:51:45,952 - Log -INFO -  The Actual Text of the OrangeHRM Application Login Page  After Logout is :- LOGIN Panel
+2024-02-15 09:51:45,957 - Log -INFO -  Successfully Navigated to OrangeHRM Application LogIn Page After Logout- PASS 
+2024-02-15 09:51:46,151 - Log -INFO -  The Expected Text of the OrangeHRM Application Login Page is :- LOGIN Panel
+2024-02-15 09:51:46,184 - Log -INFO -  The Actual Text of the OrangeHRM Application Login Page is :- LOGIN Panel
+2024-02-15 09:51:46,191 - Log -INFO -  Text Found - Successfully Navigated to OrangeHRM Application LogIn Page - PASS 
+2024-02-15 09:51:47,287 - Log -INFO - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"partial link text","selector":"Admin"}
+  (Session info: chrome=121.0.6167.161)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ece1f423416e696e2cc0d60caf871cbb, findElement {using=partial link text, value=Admin}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\emmad\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53130}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53130/devtoo..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ece1f423416e696e2cc0d60caf871cbb
+2024-02-15 09:51:47,327 - Log -INFO -  The Expected Text of the OrangeHRM Application Loginpage is :- Invalid credentials
+2024-02-15 09:51:47,347 - Log -INFO -  The Actual Text of the OrangeHRM Application Loginpage is :- Invalid credentials
+2024-02-15 09:51:47,354 - Log -INFO - Failed to Navigate to OrangeHRM Application HomePage - Pass 
+2024-02-15 09:51:47,360 - Log -INFO - OrangeHRMApplicationURLAddress is Not Matched:-Pass 
+2024-02-15 09:51:47,673 - Log -INFO -  The Expected Text of the OrangeHRM Application Login Page After Logout is :- LOGIN Panel
+2024-02-15 09:51:47,705 - Log -INFO -  The Actual Text of the OrangeHRM Application Login Page  After Logout is :- LOGIN Panel
+2024-02-15 09:51:47,710 - Log -INFO -  Successfully Navigated to OrangeHRM Application LogIn Page After Logout- PASS 
+2024-02-15 09:51:47,756 - Log -INFO -  The Expected Text of the OrangeHRM Application Login Page is :- LOGIN Panel
+2024-02-15 09:51:47,788 - Log -INFO -  The Actual Text of the OrangeHRM Application Login Page is :- LOGIN Panel
+2024-02-15 09:51:47,794 - Log -INFO -  Text Found - Successfully Navigated to OrangeHRM Application LogIn Page - PASS 
+2024-02-15 09:51:48,388 - Log -INFO - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"partial link text","selector":"Admin"}
+  (Session info: chrome=121.0.6167.161)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ece1f423416e696e2cc0d60caf871cbb, findElement {using=partial link text, value=Admin}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\emmad\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53130}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53130/devtoo..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ece1f423416e696e2cc0d60caf871cbb
+2024-02-15 09:51:48,405 - Log -INFO -  The Expected Text of the OrangeHRM Application Loginpage is :- Invalid credentials
+2024-02-15 09:51:48,430 - Log -INFO -  The Actual Text of the OrangeHRM Application Loginpage is :- Invalid credentials
+2024-02-15 09:51:48,437 - Log -INFO - Failed to Navigate to OrangeHRM Application HomePage - Pass 
+2024-02-15 09:51:48,443 - Log -INFO - OrangeHRMApplicationURLAddress is Not Matched:-Pass 
+2024-02-15 09:51:48,613 - Log -INFO -  The Expected Text of the OrangeHRM Application Login Page After Logout is :- LOGIN Panel
+2024-02-15 09:51:48,640 - Log -INFO -  The Actual Text of the OrangeHRM Application Login Page  After Logout is :- LOGIN Panel
+2024-02-15 09:51:48,646 - Log -INFO -  Successfully Navigated to OrangeHRM Application LogIn Page After Logout- PASS 
+2024-02-15 09:51:48,677 - Log -INFO -  The Expected Text of the OrangeHRM Application Login Page is :- LOGIN Panel
+2024-02-15 09:51:48,711 - Log -INFO -  The Actual Text of the OrangeHRM Application Login Page is :- LOGIN Panel
+2024-02-15 09:51:48,718 - Log -INFO -  Text Found - Successfully Navigated to OrangeHRM Application LogIn Page - PASS 
+2024-02-15 09:51:49,176 - Log -INFO - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"partial link text","selector":"Admin"}
+  (Session info: chrome=121.0.6167.161)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ece1f423416e696e2cc0d60caf871cbb, findElement {using=partial link text, value=Admin}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\emmad\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53130}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53130/devtoo..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ece1f423416e696e2cc0d60caf871cbb
+2024-02-15 09:51:49,192 - Log -INFO -  The Expected Text of the OrangeHRM Application Loginpage is :- Invalid credentials
+2024-02-15 09:51:49,219 - Log -INFO -  The Actual Text of the OrangeHRM Application Loginpage is :- Invalid credentials
+2024-02-15 09:51:49,224 - Log -INFO - Failed to Navigate to OrangeHRM Application HomePage - Pass 
+2024-02-15 09:51:49,229 - Log -INFO - OrangeHRMApplicationURLAddress is Not Matched:-Pass 
+2024-02-15 09:51:49,386 - Log -INFO -  The Expected Text of the OrangeHRM Application Login Page After Logout is :- LOGIN Panel
+2024-02-15 09:51:49,410 - Log -INFO -  The Actual Text of the OrangeHRM Application Login Page  After Logout is :- LOGIN Panel
+2024-02-15 09:51:49,416 - Log -INFO -  Successfully Navigated to OrangeHRM Application LogIn Page After Logout- PASS 
+2024-02-15 09:51:49,649 - Log -INFO -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
+2024-02-15 09:57:56,599 - Log -INFO - **** Chrome Browser Launched Successfully ********** 
+2024-02-15 09:57:56,594 - Log -INFO - **** Chrome Browser Launched Successfully ********** 
+2024-02-15 09:57:56,603 - Log -INFO - **** Chrome Browser Launched Successfully ********** 
+2024-02-15 09:57:58,216 - Log -INFO -  The Expected Text of the OrangeHRM Application Login Page is :- LOGIN Panel
+2024-02-15 09:57:58,220 - Log -INFO -  The Expected Text of the OrangeHRM Application Login Page is :- LOGIN Panel
+2024-02-15 09:57:58,255 - Log -INFO -  The Actual Text of the OrangeHRM Application Login Page is :- LOGIN Panel
+2024-02-15 09:57:58,259 - Log -INFO -  The Actual Text of the OrangeHRM Application Login Page is :- LOGIN Panel
+2024-02-15 09:57:58,265 - Log -INFO -  Text Found - Successfully Navigated to OrangeHRM Application LogIn Page - PASS 
+2024-02-15 09:57:58,268 - Log -INFO -  Text Found - Successfully Navigated to OrangeHRM Application LogIn Page - PASS 
+2024-02-15 09:57:58,310 - Log -INFO - The Expected Title Of OrangeHRM Application Login Web page is :-OrangeHRM
+2024-02-15 09:57:58,322 - Log -INFO - The Actual   Title of OrangeHRM Application Login Web page is :-OrangeHRM
+2024-02-15 09:57:58,330 - Log -INFO - SuccessFully Navigated to OrangeHRM Application WebPage:-Pass
+2024-02-15 09:57:59,588 - Log -INFO -  The Expected Text of the OrangeHRM Application HomePage is :- Welcome
+2024-02-15 09:57:59,676 - Log -INFO -  The Expected Text of the OrangeHRM Application HomePage is :- Welcome
+2024-02-15 09:57:59,694 - Log -INFO -  The Actual Text of the OrangeHRM Application HomePage is :- Welcome Admin
+2024-02-15 09:57:59,704 - Log -INFO -  Successfully Navigated to OrangeHRM Application HomePage - PASS 
+2024-02-15 09:57:59,719 - Log -INFO -  The Actual Text of the OrangeHRM Application HomePage is :- Welcome Admin
+2024-02-15 09:57:59,728 - Log -INFO -  Successfully Navigated to OrangeHRM Application HomePage - PASS 
+2024-02-15 09:58:00,670 - Log -INFO - The text of the Expected webelement employee id is: 0027
+2024-02-15 09:58:02,356 - Log -INFO - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#spanMessage"}
+  (Session info: chrome=121.0.6167.161)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [28159d2b8c7da6504e78f25dc143469b, findElement {using=id, value=spanMessage}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\emmad\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53276}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53276/devtoo..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 28159d2b8c7da6504e78f25dc143469b
+2024-02-15 09:58:02,363 - Log -INFO -  The Expected Text of the OrangeHRM Application Login Page After Logout is :- LOGIN Panel
+2024-02-15 09:58:02,389 - Log -INFO -  The Actual Text of the OrangeHRM Application Login Page  After Logout is :- LOGIN Panel
+2024-02-15 09:58:02,395 - Log -INFO -  Successfully Navigated to OrangeHRM Application LogIn Page After Logout- PASS 
+2024-02-15 09:58:02,540 - Log -INFO -  The Expected Text of the OrangeHRM Application Login Page is :- LOGIN Panel
+2024-02-15 09:58:02,566 - Log -INFO -  The Actual Text of the OrangeHRM Application Login Page is :- LOGIN Panel
+2024-02-15 09:58:02,571 - Log -INFO -  Text Found - Successfully Navigated to OrangeHRM Application LogIn Page - PASS 
+2024-02-15 09:58:03,220 - Log -INFO - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"partial link text","selector":"Admin"}
+  (Session info: chrome=121.0.6167.161)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [28159d2b8c7da6504e78f25dc143469b, findElement {using=partial link text, value=Admin}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\emmad\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53276}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53276/devtoo..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 28159d2b8c7da6504e78f25dc143469b
+2024-02-15 09:58:03,254 - Log -INFO -  The Expected Text of the OrangeHRM Application Loginpage is :- Invalid credentials
+2024-02-15 09:58:03,272 - Log -INFO -  The Actual Text of the OrangeHRM Application Loginpage is :- Invalid credentials
+2024-02-15 09:58:03,279 - Log -INFO - Failed to Navigate to OrangeHRM Application HomePage - Pass 
+2024-02-15 09:58:03,284 - Log -INFO - OrangeHRMApplicationURLAddress is Not Matched:-Pass 
+2024-02-15 09:58:03,463 - Log -INFO -  The Expected Text of the OrangeHRM Application Login Page After Logout is :- LOGIN Panel
+2024-02-15 09:58:03,486 - Log -INFO -  The Actual Text of the OrangeHRM Application Login Page  After Logout is :- LOGIN Panel
+2024-02-15 09:58:03,492 - Log -INFO -  Successfully Navigated to OrangeHRM Application LogIn Page After Logout- PASS 
+2024-02-15 09:58:03,515 - Log -INFO -  The Expected Text of the OrangeHRM Application Login Page is :- LOGIN Panel
+2024-02-15 09:58:03,541 - Log -INFO -  The Actual Text of the OrangeHRM Application Login Page is :- LOGIN Panel
+2024-02-15 09:58:03,546 - Log -INFO -  Text Found - Successfully Navigated to OrangeHRM Application LogIn Page - PASS 
+2024-02-15 09:58:03,982 - Log -INFO - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"partial link text","selector":"Admin"}
+  (Session info: chrome=121.0.6167.161)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [28159d2b8c7da6504e78f25dc143469b, findElement {using=partial link text, value=Admin}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\emmad\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53276}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53276/devtoo..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 28159d2b8c7da6504e78f25dc143469b
+2024-02-15 09:58:04,009 - Log -INFO -  The Expected Text of the OrangeHRM Application Loginpage is :- Invalid credentials
+2024-02-15 09:58:04,027 - Log -INFO -  The Actual Text of the OrangeHRM Application Loginpage is :- Invalid credentials
+2024-02-15 09:58:04,033 - Log -INFO - Failed to Navigate to OrangeHRM Application HomePage - Pass 
+2024-02-15 09:58:04,038 - Log -INFO - OrangeHRMApplicationURLAddress is Not Matched:-Pass 
+2024-02-15 09:58:04,227 - Log -INFO -  The Expected Text of the OrangeHRM Application Login Page After Logout is :- LOGIN Panel
+2024-02-15 09:58:04,254 - Log -INFO -  The Actual Text of the OrangeHRM Application Login Page  After Logout is :- LOGIN Panel
+2024-02-15 09:58:04,259 - Log -INFO -  Successfully Navigated to OrangeHRM Application LogIn Page After Logout- PASS 
+2024-02-15 09:58:04,285 - Log -INFO -  The Expected Text of the OrangeHRM Application Login Page is :- LOGIN Panel
+2024-02-15 09:58:04,332 - Log -INFO -  The Actual Text of the OrangeHRM Application Login Page is :- LOGIN Panel
+2024-02-15 09:58:04,339 - Log -INFO -  Text Found - Successfully Navigated to OrangeHRM Application LogIn Page - PASS 
+2024-02-15 09:58:04,812 - Log -INFO - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"partial link text","selector":"Admin"}
+  (Session info: chrome=121.0.6167.161)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [28159d2b8c7da6504e78f25dc143469b, findElement {using=partial link text, value=Admin}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\emmad\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53276}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53276/devtoo..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 28159d2b8c7da6504e78f25dc143469b
+2024-02-15 09:58:04,830 - Log -INFO -  The Expected Text of the OrangeHRM Application Loginpage is :- Invalid credentials
+2024-02-15 09:58:04,875 - Log -INFO -  The Actual Text of the OrangeHRM Application Loginpage is :- Invalid credentials
+2024-02-15 09:58:04,881 - Log -INFO - Failed to Navigate to OrangeHRM Application HomePage - Pass 
+2024-02-15 09:58:04,886 - Log -INFO - OrangeHRMApplicationURLAddress is Not Matched:-Pass 
+2024-02-15 09:58:05,052 - Log -INFO -  The Expected Text of the OrangeHRM Application Login Page After Logout is :- LOGIN Panel
+2024-02-15 09:58:05,075 - Log -INFO -  The Actual Text of the OrangeHRM Application Login Page  After Logout is :- LOGIN Panel
+2024-02-15 09:58:05,080 - Log -INFO -  Successfully Navigated to OrangeHRM Application LogIn Page After Logout- PASS 
+2024-02-15 09:58:05,299 - Log -INFO -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
+2024-02-15 09:58:05,574 - Log -INFO -   | 
+2024-02-15 09:58:05,588 - Log -INFO - 0001 | 
+2024-02-15 09:58:05,603 - Log -INFO - Bala Ram | 
+2024-02-15 09:58:05,618 - Log -INFO - Ayodhya | 
+2024-02-15 09:58:05,633 - Log -INFO -  | 
+2024-02-15 09:58:05,650 - Log -INFO -  | 
+2024-02-15 09:58:05,667 - Log -INFO -  | 
+2024-02-15 09:58:05,683 - Log -INFO -  | 
+2024-02-15 09:58:05,709 - Log -INFO -  | 
+2024-02-15 09:58:05,723 - Log -INFO - 0002 | 
+2024-02-15 09:58:05,737 - Log -INFO - Ayodhya Bala | 
+2024-02-15 09:58:05,752 - Log -INFO - Ram | 
+2024-02-15 09:58:05,768 - Log -INFO -  | 
+2024-02-15 09:58:05,784 - Log -INFO -  | 
+2024-02-15 09:58:05,801 - Log -INFO -  | 
+2024-02-15 09:58:05,819 - Log -INFO -  | 
+2024-02-15 09:58:05,853 - Log -INFO -  | 
+2024-02-15 09:58:05,870 - Log -INFO - 0003 | 
+2024-02-15 09:58:05,884 - Log -INFO - Emmadishetty Naveen | 
+2024-02-15 09:58:05,897 - Log -INFO - Patel | 
+2024-02-15 09:58:05,909 - Log -INFO -  | 
+2024-02-15 09:58:05,925 - Log -INFO -  | 
+2024-02-15 09:58:05,939 - Log -INFO -  | 
+2024-02-15 09:58:05,953 - Log -INFO -  | 
+2024-02-15 09:58:05,977 - Log -INFO -  | 
+2024-02-15 09:58:05,991 - Log -INFO - 0004 | 
+2024-02-15 09:58:06,005 - Log -INFO - Naveen Patel | 
+2024-02-15 09:58:06,022 - Log -INFO - Emmadishetty | 
+2024-02-15 09:58:06,042 - Log -INFO -  | 
+2024-02-15 09:58:06,058 - Log -INFO -  | 
+2024-02-15 09:58:06,073 - Log -INFO -  | 
+2024-02-15 09:58:06,088 - Log -INFO -  | 
+2024-02-15 09:58:06,111 - Log -INFO -  | 
+2024-02-15 09:58:06,128 - Log -INFO - 0005 | 
+2024-02-15 09:58:06,143 - Log -INFO - Patel Emmadishetty | 
+2024-02-15 09:58:06,160 - Log -INFO - Naveen | 
+2024-02-15 09:58:06,174 - Log -INFO -  | 
+2024-02-15 09:58:06,187 - Log -INFO -  | 
+2024-02-15 09:58:06,202 - Log -INFO -  | 
+2024-02-15 09:58:06,218 - Log -INFO -  | 
+2024-02-15 09:58:06,243 - Log -INFO -  | 
+2024-02-15 09:58:06,259 - Log -INFO - 0006 | 
+2024-02-15 09:58:06,277 - Log -INFO - Emmadishetty Naveen | 
+2024-02-15 09:58:06,292 - Log -INFO - Patel | 
+2024-02-15 09:58:06,305 - Log -INFO -  | 
+2024-02-15 09:58:06,327 - Log -INFO -  | 
+2024-02-15 09:58:06,344 - Log -INFO -  | 
+2024-02-15 09:58:06,358 - Log -INFO -  | 
+2024-02-15 09:58:06,385 - Log -INFO -  | 
+2024-02-15 09:58:06,401 - Log -INFO - 0007 | 
+2024-02-15 09:58:06,414 - Log -INFO - Naveen Patel | 
+2024-02-15 09:58:06,427 - Log -INFO - Emmadishetty | 
+2024-02-15 09:58:06,439 - Log -INFO -  | 
+2024-02-15 09:58:06,453 - Log -INFO -  | 
+2024-02-15 09:58:06,469 - Log -INFO -  | 
+2024-02-15 09:58:06,483 - Log -INFO -  | 
+2024-02-15 09:58:06,508 - Log -INFO -  | 
+2024-02-15 09:58:06,524 - Log -INFO - 0008 | 
+2024-02-15 09:58:06,541 - Log -INFO - Patel Emmadishetty | 
+2024-02-15 09:58:06,554 - Log -INFO - Naveen | 
+2024-02-15 09:58:06,568 - Log -INFO -  | 
+2024-02-15 09:58:06,584 - Log -INFO -  | 
+2024-02-15 09:58:06,600 - Log -INFO -  | 
+2024-02-15 09:58:06,615 - Log -INFO -  | 
+2024-02-15 09:58:06,642 - Log -INFO -  | 
+2024-02-15 09:58:06,656 - Log -INFO - 0009 | 
+2024-02-15 09:58:06,669 - Log -INFO - Emmadishetty Naveen | 
+2024-02-15 09:58:06,686 - Log -INFO - Patel | 
+2024-02-15 09:58:06,702 - Log -INFO -  | 
+2024-02-15 09:58:06,719 - Log -INFO -  | 
+2024-02-15 09:58:06,735 - Log -INFO -  | 
+2024-02-15 09:58:06,750 - Log -INFO -  | 
+2024-02-15 09:58:06,755 - Log -INFO -  The Expected Text of the OrangeHRM Application Login Page is :- Add Employee
+2024-02-15 09:58:06,781 - Log -INFO -  | 
+2024-02-15 09:58:06,787 - Log -INFO -  The Actual Text of the OrangeHRM Application Login Page is :- Add Employee
+2024-02-15 09:58:06,792 - Log -INFO -  Text Found - Successfully Navigated to OrangeHRM Application Add Employee Page - PASS 
+2024-02-15 09:58:06,801 - Log -INFO - 0010 | 
+2024-02-15 09:58:06,817 - Log -INFO - Naveen Patel | 
+2024-02-15 09:58:06,835 - Log -INFO - Emmadishetty | 
+2024-02-15 09:58:06,852 - Log -INFO -  | 
+2024-02-15 09:58:06,868 - Log -INFO -  | 
+2024-02-15 09:58:06,891 - Log -INFO -  | 
+2024-02-15 09:58:06,909 - Log -INFO -  | 
+2024-02-15 09:58:06,939 - Log -INFO -  | 
+2024-02-15 09:58:06,963 - Log -INFO - 0011 | 
+2024-02-15 09:58:06,981 - Log -INFO - Patel Emmadishetty | 
+2024-02-15 09:58:06,997 - Log -INFO - Naveen | 
+2024-02-15 09:58:07,016 - Log -INFO -  | 
+2024-02-15 09:58:07,048 - Log -INFO -  | 
+2024-02-15 09:58:07,067 - Log -INFO -  | 
+2024-02-15 09:58:07,081 - Log -INFO -  | 
+2024-02-15 09:58:07,107 - Log -INFO -  | 
+2024-02-15 09:58:07,121 - Log -INFO - 0012 | 
+2024-02-15 09:58:07,136 - Log -INFO - Emmadishetty Naveen | 
+2024-02-15 09:58:07,152 - Log -INFO - Patel | 
+2024-02-15 09:58:07,165 - Log -INFO -  | 
+2024-02-15 09:58:07,179 - Log -INFO -  | 
+2024-02-15 09:58:07,198 - Log -INFO -  | 
+2024-02-15 09:58:07,218 - Log -INFO -  | 
+2024-02-15 09:58:07,253 - Log -INFO -  | 
+2024-02-15 09:58:07,278 - Log -INFO - 0013 | 
+2024-02-15 09:58:07,298 - Log -INFO - Naveen Patel | 
+2024-02-15 09:58:07,318 - Log -INFO - Emmadishetty | 
+2024-02-15 09:58:07,335 - Log -INFO -  | 
+2024-02-15 09:58:07,350 - Log -INFO -  | 
+2024-02-15 09:58:07,364 - Log -INFO -  | 
+2024-02-15 09:58:07,379 - Log -INFO -  | 
+2024-02-15 09:58:07,404 - Log -INFO -  | 
+2024-02-15 09:58:07,418 - Log -INFO - 0014 | 
+2024-02-15 09:58:07,431 - Log -INFO - Patel Emmadishetty | 
+2024-02-15 09:58:07,447 - Log -INFO - Naveen | 
+2024-02-15 09:58:07,464 - Log -INFO -  | 
+2024-02-15 09:58:07,478 - Log -INFO -  | 
+2024-02-15 09:58:07,492 - Log -INFO -  | 
+2024-02-15 09:58:07,506 - Log -INFO -  | 
+2024-02-15 09:58:07,535 - Log -INFO -  | 
+2024-02-15 09:58:07,550 - Log -INFO - 0015 | 
+2024-02-15 09:58:07,565 - Log -INFO - Emmadishetty Naveen | 
+2024-02-15 09:58:07,580 - Log -INFO - Patel | 
+2024-02-15 09:58:07,595 - Log -INFO -  | 
+2024-02-15 09:58:07,609 - Log -INFO -  | 
+2024-02-15 09:58:07,622 - Log -INFO -  | 
+2024-02-15 09:58:07,637 - Log -INFO -  | 
+2024-02-15 09:58:07,663 - Log -INFO -  | 
+2024-02-15 09:58:07,677 - Log -INFO - 0016 | 
+2024-02-15 09:58:07,691 - Log -INFO - Naveen Patel | 
+2024-02-15 09:58:07,706 - Log -INFO - Emmadishetty | 
+2024-02-15 09:58:07,719 - Log -INFO -  | 
+2024-02-15 09:58:07,733 - Log -INFO -  | 
+2024-02-15 09:58:07,746 - Log -INFO -  | 
+2024-02-15 09:58:07,762 - Log -INFO -  | 
+2024-02-15 09:58:07,790 - Log -INFO -  | 
+2024-02-15 09:58:07,812 - Log -INFO - 0017 | 
+2024-02-15 09:58:07,832 - Log -INFO - Patel Emmadishetty | 
+2024-02-15 09:58:07,858 - Log -INFO - Naveen | 
+2024-02-15 09:58:07,877 - Log -INFO -  | 
+2024-02-15 09:58:07,894 - Log -INFO -  | 
+2024-02-15 09:58:07,909 - Log -INFO -  | 
+2024-02-15 09:58:07,922 - Log -INFO -  | 
+2024-02-15 09:58:07,942 - Log -INFO -  | 
+2024-02-15 09:58:07,958 - Log -INFO - 0018 | 
+2024-02-15 09:58:07,973 - Log -INFO - Emmadishetty Naveen | 
+2024-02-15 09:58:07,994 - Log -INFO - Patel | 
+2024-02-15 09:58:08,015 - Log -INFO -  | 
+2024-02-15 09:58:08,032 - Log -INFO -  | 
+2024-02-15 09:58:08,048 - Log -INFO -  | 
+2024-02-15 09:58:08,062 - Log -INFO -  | 
+2024-02-15 09:58:08,089 - Log -INFO -  | 
+2024-02-15 09:58:08,104 - Log -INFO - 0019 | 
+2024-02-15 09:58:08,122 - Log -INFO - Naveen Patel | 
+2024-02-15 09:58:08,138 - Log -INFO - Emmadishetty | 
+2024-02-15 09:58:08,153 - Log -INFO -  | 
+2024-02-15 09:58:08,169 - Log -INFO -  | 
+2024-02-15 09:58:08,185 - Log -INFO -  | 
+2024-02-15 09:58:08,200 - Log -INFO -  | 
+2024-02-15 09:58:08,225 - Log -INFO -  | 
+2024-02-15 09:58:08,242 - Log -INFO - 0020 | 
+2024-02-15 09:58:08,257 - Log -INFO - Patel Emmadishetty | 
+2024-02-15 09:58:08,271 - Log -INFO - Naveen | 
+2024-02-15 09:58:08,290 - Log -INFO -  | 
+2024-02-15 09:58:08,305 - Log -INFO -  | 
+2024-02-15 09:58:08,321 - Log -INFO -  | 
+2024-02-15 09:58:08,334 - Log -INFO -  | 
+2024-02-15 09:58:08,357 - Log -INFO -  | 
+2024-02-15 09:58:08,368 - Log -INFO - 0021 | 
+2024-02-15 09:58:08,382 - Log -INFO - Emmadishetty Naveen | 
+2024-02-15 09:58:08,394 - Log -INFO - Patel | 
+2024-02-15 09:58:08,408 - Log -INFO -  | 
+2024-02-15 09:58:08,421 - Log -INFO -  | 
+2024-02-15 09:58:08,435 - Log -INFO -  | 
+2024-02-15 09:58:08,450 - Log -INFO -  | 
+2024-02-15 09:58:08,473 - Log -INFO -  | 
+2024-02-15 09:58:08,487 - Log -INFO - 0022 | 
+2024-02-15 09:58:08,499 - Log -INFO - Naveen Patel | 
+2024-02-15 09:58:08,514 - Log -INFO - Emmadishetty | 
+2024-02-15 09:58:08,528 - Log -INFO -  | 
+2024-02-15 09:58:08,541 - Log -INFO -  | 
+2024-02-15 09:58:08,555 - Log -INFO -  | 
+2024-02-15 09:58:08,570 - Log -INFO -  | 
+2024-02-15 09:58:08,597 - Log -INFO -  | 
+2024-02-15 09:58:08,610 - Log -INFO - 0023 | 
+2024-02-15 09:58:08,627 - Log -INFO - Patel Emmadishetty | 
+2024-02-15 09:58:08,642 - Log -INFO - Naveen | 
+2024-02-15 09:58:08,656 - Log -INFO -  | 
+2024-02-15 09:58:08,672 - Log -INFO -  | 
+2024-02-15 09:58:08,686 - Log -INFO -  | 
+2024-02-15 09:58:08,701 - Log -INFO -  | 
+2024-02-15 09:58:08,727 - Log -INFO -  | 
+2024-02-15 09:58:08,745 - Log -INFO - 0024 | 
+2024-02-15 09:58:08,761 - Log -INFO - Emmadishetty Naveen | 
+2024-02-15 09:58:08,775 - Log -INFO - Patel | 
+2024-02-15 09:58:08,788 - Log -INFO -  | 
+2024-02-15 09:58:08,801 - Log -INFO -  | 
+2024-02-15 09:58:08,817 - Log -INFO -  | 
+2024-02-15 09:58:08,835 - Log -INFO -  | 
+2024-02-15 09:58:08,859 - Log -INFO -  | 
+2024-02-15 09:58:08,877 - Log -INFO - 0025 | 
+2024-02-15 09:58:08,891 - Log -INFO - Naveen Patel | 
+2024-02-15 09:58:08,906 - Log -INFO - Emmadishetty | 
+2024-02-15 09:58:08,921 - Log -INFO -  | 
+2024-02-15 09:58:08,935 - Log -INFO -  | 
+2024-02-15 09:58:08,946 - Log -INFO -  | 
+2024-02-15 09:58:08,958 - Log -INFO -  | 
+2024-02-15 09:58:08,979 - Log -INFO -  | 
+2024-02-15 09:58:08,990 - Log -INFO - 0026 | 
+2024-02-15 09:58:09,003 - Log -INFO - Patel Emmadishetty | 
+2024-02-15 09:58:09,016 - Log -INFO - Naveen | 
+2024-02-15 09:58:09,027 - Log -INFO -  | 
+2024-02-15 09:58:09,040 - Log -INFO -  | 
+2024-02-15 09:58:09,052 - Log -INFO -  | 
+2024-02-15 09:58:09,064 - Log -INFO -  | 
+2024-02-15 09:58:13,122 - Log -INFO -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
+2024-02-15 09:58:13,293 - Log -INFO -  The Expected Text of the OrangeHRM Application PersonalDetails Page is :- Personal Details
+2024-02-15 09:58:13,343 - Log -INFO -  The Actual Text of the OrangeHRM Application PersonalDetailsPage is :- Personal Details
+2024-02-15 09:58:13,349 - Log -INFO -  Text Found - Successfully Navigated to OrangeHRM Application PersonalDetails Page - PASS 
+2024-02-15 09:58:13,401 - Log -INFO - The Actual value of the first name is: Emmadishetty
+2024-02-15 09:58:13,405 - Log -INFO - The Employee First Name Is Matched :-Pass
+2024-02-15 09:58:13,450 - Log -INFO - The Actual value of the Middle name is: Naveen
+2024-02-15 09:58:13,454 - Log -INFO - The Employee Middle Name Is Matched :-Pass
+2024-02-15 09:58:13,497 - Log -INFO - The Actual value of the Last name is: Patel
+2024-02-15 09:58:13,501 - Log -INFO - The Employee Last Name Is Matched :-Pass
+2024-02-15 09:58:13,542 - Log -INFO - The text of the Actual webelement employee id is: 0027
+2024-02-15 09:58:13,546 - Log -INFO - The Employee Id Is Matched :-Pass
+2024-02-15 09:58:14,909 - Log -INFO - The text of the Expected webelement employee id is: 0028
+2024-02-15 09:58:20,962 - Log -INFO -  The Expected Text of the OrangeHRM Application Login Page is :- Add Employee
+2024-02-15 09:58:20,987 - Log -INFO -  The Actual Text of the OrangeHRM Application Login Page is :- Add Employee
+2024-02-15 09:58:20,991 - Log -INFO -  Text Found - Successfully Navigated to OrangeHRM Application Add Employee Page - PASS 
+2024-02-15 09:58:27,002 - Log -INFO -  The Expected Text of the OrangeHRM Application PersonalDetails Page is :- Personal Details
+2024-02-15 09:58:27,040 - Log -INFO -  The Actual Text of the OrangeHRM Application PersonalDetailsPage is :- Personal Details
+2024-02-15 09:58:27,046 - Log -INFO -  Text Found - Successfully Navigated to OrangeHRM Application PersonalDetails Page - PASS 
+2024-02-15 09:58:27,092 - Log -INFO - The Actual value of the first name is: Naveen
+2024-02-15 09:58:27,098 - Log -INFO - The Employee First Name Is Matched :-Pass
+2024-02-15 09:58:27,140 - Log -INFO - The Actual value of the Middle name is: Patel
+2024-02-15 09:58:27,154 - Log -INFO - The Employee Middle Name Is Matched :-Pass
+2024-02-15 09:58:27,203 - Log -INFO - The Actual value of the Last name is: Emmadishetty
+2024-02-15 09:58:27,211 - Log -INFO - The Employee Last Name Is Matched :-Pass
+2024-02-15 09:58:27,285 - Log -INFO - The text of the Actual webelement employee id is: 0028
+2024-02-15 09:58:27,290 - Log -INFO - The Employee Id Is Matched :-Pass
+2024-02-15 09:58:28,848 - Log -INFO - The text of the Expected webelement employee id is: 0029
+2024-02-15 09:58:34,927 - Log -INFO -  The Expected Text of the OrangeHRM Application Login Page is :- Add Employee
+2024-02-15 09:58:34,962 - Log -INFO -  The Actual Text of the OrangeHRM Application Login Page is :- Add Employee
+2024-02-15 09:58:34,966 - Log -INFO -  Text Found - Successfully Navigated to OrangeHRM Application Add Employee Page - PASS 
+2024-02-15 09:58:41,514 - Log -INFO -  The Expected Text of the OrangeHRM Application PersonalDetails Page is :- Personal Details
+2024-02-15 09:58:41,543 - Log -INFO -  The Actual Text of the OrangeHRM Application PersonalDetailsPage is :- Personal Details
+2024-02-15 09:58:41,549 - Log -INFO -  Text Found - Successfully Navigated to OrangeHRM Application PersonalDetails Page - PASS 
+2024-02-15 09:58:41,580 - Log -INFO - The Actual value of the first name is: Patel
+2024-02-15 09:58:41,585 - Log -INFO - The Employee First Name Is Matched :-Pass
+2024-02-15 09:58:41,617 - Log -INFO - The Actual value of the Middle name is: Emmadishetty
+2024-02-15 09:58:41,621 - Log -INFO - The Employee Middle Name Is Matched :-Pass
+2024-02-15 09:58:41,643 - Log -INFO - The Actual value of the Last name is: Naveen
+2024-02-15 09:58:41,646 - Log -INFO - The Employee Last Name Is Matched :-Pass
+2024-02-15 09:58:41,669 - Log -INFO - The text of the Actual webelement employee id is: 0029
+2024-02-15 09:58:41,672 - Log -INFO - The Employee Id Is Matched :-Pass
+2024-02-15 09:58:46,217 - Log -INFO -  The Expected Text of the OrangeHRM Application Login Page After Logout is :- LOGIN Panel
+2024-02-15 09:58:46,260 - Log -INFO -  The Actual Text of the OrangeHRM Application Login Page  After Logout is :- LOGIN Panel
+2024-02-15 09:58:46,265 - Log -INFO -  Successfully Navigated to OrangeHRM Application LogIn Page After Logout- PASS 
+2024-02-15 09:58:46,550 - Log -INFO -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
+2024-02-17 21:21:20,917 - Log -INFO - **** Chrome Browser Launched Successfully ********** 
+2024-02-17 21:21:21,884 - Log -INFO -  The Expected Text of the OrangeHRM Application Login Page is :- LOGIN Panel
+2024-02-17 21:21:21,919 - Log -INFO -  The Actual Text of the OrangeHRM Application Login Page is :- LOGIN Panel
+2024-02-17 21:21:21,925 - Log -INFO -  Text Found - Successfully Navigated to OrangeHRM Application LogIn Page - PASS 
+2024-02-17 21:21:21,969 - Log -INFO - The Expected Title Of OrangeHRM Application Login Web page is :-OrangeHRM
+2024-02-17 21:21:21,982 - Log -INFO - The Actual   Title of OrangeHRM Application Login Web page is :-OrangeHRM
+2024-02-17 21:21:21,988 - Log -INFO - SuccessFully Navigated to OrangeHRM Application WebPage:-Pass
+2024-02-17 21:21:23,168 - Log -INFO -  The Expected Text of the OrangeHRM Application HomePage is :- Welcome
+2024-02-17 21:21:23,215 - Log -INFO -  The Actual Text of the OrangeHRM Application HomePage is :- Welcome Admin
+2024-02-17 21:21:23,227 - Log -INFO -  Successfully Navigated to OrangeHRM Application HomePage - PASS 
+2024-02-17 21:21:24,645 - Log -INFO - The text of the Expected webelement employee id is: 0030
+2024-02-17 21:21:30,860 - Log -INFO -  The Expected Text of the OrangeHRM Application Login Page is :- Add Employee
+2024-02-17 21:21:30,917 - Log -INFO -  The Actual Text of the OrangeHRM Application Login Page is :- Add Employee
+2024-02-17 21:21:30,925 - Log -INFO -  Text Found - Successfully Navigated to OrangeHRM Application Add Employee Page - PASS 
+2024-02-17 21:21:40,298 - Log -INFO -  The Expected Text of the OrangeHRM Application PersonalDetails Page is :- Personal Details
+2024-02-17 21:21:40,342 - Log -INFO -  The Actual Text of the OrangeHRM Application PersonalDetailsPage is :- Personal Details
+2024-02-17 21:21:40,350 - Log -INFO -  Text Found - Successfully Navigated to OrangeHRM Application PersonalDetails Page - PASS 
+2024-02-17 21:21:40,402 - Log -INFO - The Actual value of the first name is: Emmadishetty
+2024-02-17 21:21:40,408 - Log -INFO - The Employee First Name Is Matched :-Pass
+2024-02-17 21:21:40,461 - Log -INFO - The Actual value of the Middle name is: Naveen
+2024-02-17 21:21:40,467 - Log -INFO - The Employee Middle Name Is Matched :-Pass
+2024-02-17 21:21:40,510 - Log -INFO - The Actual value of the Last name is: Patel
+2024-02-17 21:21:40,516 - Log -INFO - The Employee Last Name Is Matched :-Pass
+2024-02-17 21:21:40,557 - Log -INFO - The text of the Actual webelement employee id is: 0030
+2024-02-17 21:21:40,570 - Log -INFO - The Employee Id Is Matched :-Pass
+2024-02-17 21:21:41,963 - Log -INFO - The text of the Expected webelement employee id is: 0031
+2024-02-17 21:21:48,036 - Log -INFO -  The Expected Text of the OrangeHRM Application Login Page is :- Add Employee
+2024-02-17 21:21:48,059 - Log -INFO -  The Actual Text of the OrangeHRM Application Login Page is :- Add Employee
+2024-02-17 21:21:48,064 - Log -INFO -  Text Found - Successfully Navigated to OrangeHRM Application Add Employee Page - PASS 
+2024-02-17 21:21:53,960 - Log -INFO -  The Expected Text of the OrangeHRM Application PersonalDetails Page is :- Personal Details
+2024-02-17 21:21:54,000 - Log -INFO -  The Actual Text of the OrangeHRM Application PersonalDetailsPage is :- Personal Details
+2024-02-17 21:21:54,007 - Log -INFO -  Text Found - Successfully Navigated to OrangeHRM Application PersonalDetails Page - PASS 
+2024-02-17 21:21:54,044 - Log -INFO - The Actual value of the first name is: Naveen
+2024-02-17 21:21:54,051 - Log -INFO - The Employee First Name Is Matched :-Pass
+2024-02-17 21:21:54,083 - Log -INFO - The Actual value of the Middle name is: Patel
+2024-02-17 21:21:54,090 - Log -INFO - The Employee Middle Name Is Matched :-Pass
+2024-02-17 21:21:54,119 - Log -INFO - The Actual value of the Last name is: Emmadishetty
+2024-02-17 21:21:54,126 - Log -INFO - The Employee Last Name Is Matched :-Pass
+2024-02-17 21:21:54,158 - Log -INFO - The text of the Actual webelement employee id is: 0031
+2024-02-17 21:21:54,165 - Log -INFO - The Employee Id Is Matched :-Pass
+2024-02-17 21:21:55,248 - Log -INFO - The text of the Expected webelement employee id is: 0032
+2024-02-17 21:22:01,350 - Log -INFO -  The Expected Text of the OrangeHRM Application Login Page is :- Add Employee
+2024-02-17 21:22:01,389 - Log -INFO -  The Actual Text of the OrangeHRM Application Login Page is :- Add Employee
+2024-02-17 21:22:01,397 - Log -INFO -  Text Found - Successfully Navigated to OrangeHRM Application Add Employee Page - PASS 
+2024-02-17 21:22:07,974 - Log -INFO -  The Expected Text of the OrangeHRM Application PersonalDetails Page is :- Personal Details
+2024-02-17 21:22:08,030 - Log -INFO -  The Actual Text of the OrangeHRM Application PersonalDetailsPage is :- Personal Details
+2024-02-17 21:22:08,036 - Log -INFO -  Text Found - Successfully Navigated to OrangeHRM Application PersonalDetails Page - PASS 
+2024-02-17 21:22:08,079 - Log -INFO - The Actual value of the first name is: Patel
+2024-02-17 21:22:08,086 - Log -INFO - The Employee First Name Is Matched :-Pass
+2024-02-17 21:22:08,120 - Log -INFO - The Actual value of the Middle name is: Emmadishetty
+2024-02-17 21:22:08,126 - Log -INFO - The Employee Middle Name Is Matched :-Pass
+2024-02-17 21:22:08,160 - Log -INFO - The Actual value of the Last name is: Naveen
+2024-02-17 21:22:08,166 - Log -INFO - The Employee Last Name Is Matched :-Pass
+2024-02-17 21:22:08,197 - Log -INFO - The text of the Actual webelement employee id is: 0032
+2024-02-17 21:22:08,202 - Log -INFO - The Employee Id Is Matched :-Pass
+2024-02-17 21:22:13,022 - Log -INFO -  The Expected Text of the OrangeHRM Application Login Page After Logout is :- LOGIN Panel
+2024-02-17 21:22:13,075 - Log -INFO -  The Actual Text of the OrangeHRM Application Login Page  After Logout is :- LOGIN Panel
+2024-02-17 21:22:13,081 - Log -INFO -  Successfully Navigated to OrangeHRM Application LogIn Page After Logout- PASS 
+2024-02-17 21:22:13,650 - Log -INFO -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
+2024-02-17 21:23:41,293 - Log -INFO - **** Chrome Browser Launched Successfully ********** 
+2024-02-17 21:23:42,633 - Log -INFO -  The Expected Text of the OrangeHRM Application Login Page is :- LOGIN Panel
+2024-02-17 21:23:42,682 - Log -INFO -  The Actual Text of the OrangeHRM Application Login Page is :- LOGIN Panel
+2024-02-17 21:23:42,690 - Log -INFO -  Text Found - Successfully Navigated to OrangeHRM Application LogIn Page - PASS 
+2024-02-17 21:23:44,727 - Log -INFO -  The Expected Text of the OrangeHRM Application HomePage is :- Welcome
+2024-02-17 21:23:44,760 - Log -INFO -  The Actual Text of the OrangeHRM Application HomePage is :- Welcome Admin
+2024-02-17 21:23:44,770 - Log -INFO -  Successfully Navigated to OrangeHRM Application HomePage - PASS 
+2024-02-17 21:23:47,731 - Log -INFO - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#spanMessage"}
+  (Session info: chrome=121.0.6167.185)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a882971717c6d1ce7ed3a65177a56ca2, findElement {using=id, value=spanMessage}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.184 (057a8ae7deb..., userDataDir: C:\Users\emmad\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57977}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57977/devtoo..., se:cdpVersion: 121.0.6167.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a882971717c6d1ce7ed3a65177a56ca2
+2024-02-17 21:23:47,741 - Log -INFO -  The Expected Text of the OrangeHRM Application Login Page After Logout is :- LOGIN Panel
+2024-02-17 21:23:47,806 - Log -INFO -  The Actual Text of the OrangeHRM Application Login Page  After Logout is :- LOGIN Panel
+2024-02-17 21:23:47,816 - Log -INFO -  Successfully Navigated to OrangeHRM Application LogIn Page After Logout- PASS 
+2024-02-17 21:23:48,059 - Log -INFO -  The Expected Text of the OrangeHRM Application Login Page is :- LOGIN Panel
+2024-02-17 21:23:48,112 - Log -INFO -  The Actual Text of the OrangeHRM Application Login Page is :- LOGIN Panel
+2024-02-17 21:23:48,121 - Log -INFO -  Text Found - Successfully Navigated to OrangeHRM Application LogIn Page - PASS 
+2024-02-17 21:23:49,383 - Log -INFO - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"partial link text","selector":"Admin"}
+  (Session info: chrome=121.0.6167.185)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a882971717c6d1ce7ed3a65177a56ca2, findElement {using=partial link text, value=Admin}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.184 (057a8ae7deb..., userDataDir: C:\Users\emmad\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57977}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57977/devtoo..., se:cdpVersion: 121.0.6167.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a882971717c6d1ce7ed3a65177a56ca2
+2024-02-17 21:23:49,419 - Log -INFO -  The Expected Text of the OrangeHRM Application Loginpage is :- Invalid credentials
+2024-02-17 21:23:49,466 - Log -INFO -  The Actual Text of the OrangeHRM Application Loginpage is :- Invalid credentials
+2024-02-17 21:23:49,475 - Log -INFO - Failed to Navigate to OrangeHRM Application HomePage - Pass 
+2024-02-17 21:23:49,485 - Log -INFO - OrangeHRMApplicationURLAddress is Not Matched:-Pass 
+2024-02-17 21:23:49,819 - Log -INFO -  The Expected Text of the OrangeHRM Application Login Page After Logout is :- LOGIN Panel
+2024-02-17 21:23:49,888 - Log -INFO -  The Actual Text of the OrangeHRM Application Login Page  After Logout is :- LOGIN Panel
+2024-02-17 21:23:49,894 - Log -INFO -  Successfully Navigated to OrangeHRM Application LogIn Page After Logout- PASS 
+2024-02-17 21:23:49,941 - Log -INFO -  The Expected Text of the OrangeHRM Application Login Page is :- LOGIN Panel
+2024-02-17 21:23:49,977 - Log -INFO -  The Actual Text of the OrangeHRM Application Login Page is :- LOGIN Panel
+2024-02-17 21:23:49,983 - Log -INFO -  Text Found - Successfully Navigated to OrangeHRM Application LogIn Page - PASS 
+2024-02-17 21:23:50,844 - Log -INFO - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"partial link text","selector":"Admin"}
+  (Session info: chrome=121.0.6167.185)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a882971717c6d1ce7ed3a65177a56ca2, findElement {using=partial link text, value=Admin}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.184 (057a8ae7deb..., userDataDir: C:\Users\emmad\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57977}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57977/devtoo..., se:cdpVersion: 121.0.6167.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a882971717c6d1ce7ed3a65177a56ca2
+2024-02-17 21:23:50,885 - Log -INFO -  The Expected Text of the OrangeHRM Application Loginpage is :- Invalid credentials
+2024-02-17 21:23:50,908 - Log -INFO -  The Actual Text of the OrangeHRM Application Loginpage is :- Invalid credentials
+2024-02-17 21:23:50,915 - Log -INFO - Failed to Navigate to OrangeHRM Application HomePage - Pass 
+2024-02-17 21:23:50,921 - Log -INFO - OrangeHRMApplicationURLAddress is Not Matched:-Pass 
+2024-02-17 21:23:51,173 - Log -INFO -  The Expected Text of the OrangeHRM Application Login Page After Logout is :- LOGIN Panel
+2024-02-17 21:23:51,215 - Log -INFO -  The Actual Text of the OrangeHRM Application Login Page  After Logout is :- LOGIN Panel
+2024-02-17 21:23:51,222 - Log -INFO -  Successfully Navigated to OrangeHRM Application LogIn Page After Logout- PASS 
+2024-02-17 21:23:51,259 - Log -INFO -  The Expected Text of the OrangeHRM Application Login Page is :- LOGIN Panel
+2024-02-17 21:23:51,298 - Log -INFO -  The Actual Text of the OrangeHRM Application Login Page is :- LOGIN Panel
+2024-02-17 21:23:51,304 - Log -INFO -  Text Found - Successfully Navigated to OrangeHRM Application LogIn Page - PASS 
+2024-02-17 21:23:52,233 - Log -INFO - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"partial link text","selector":"Admin"}
+  (Session info: chrome=121.0.6167.185)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a882971717c6d1ce7ed3a65177a56ca2, findElement {using=partial link text, value=Admin}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.184 (057a8ae7deb..., userDataDir: C:\Users\emmad\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57977}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57977/devtoo..., se:cdpVersion: 121.0.6167.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a882971717c6d1ce7ed3a65177a56ca2
+2024-02-17 21:23:52,255 - Log -INFO -  The Expected Text of the OrangeHRM Application Loginpage is :- Invalid credentials
+2024-02-17 21:23:52,296 - Log -INFO -  The Actual Text of the OrangeHRM Application Loginpage is :- Invalid credentials
+2024-02-17 21:23:52,303 - Log -INFO - Failed to Navigate to OrangeHRM Application HomePage - Pass 
+2024-02-17 21:23:52,309 - Log -INFO - OrangeHRMApplicationURLAddress is Not Matched:-Pass 
+2024-02-17 21:23:52,521 - Log -INFO -  The Expected Text of the OrangeHRM Application Login Page After Logout is :- LOGIN Panel
+2024-02-17 21:23:52,551 - Log -INFO -  The Actual Text of the OrangeHRM Application Login Page  After Logout is :- LOGIN Panel
+2024-02-17 21:23:52,556 - Log -INFO -  Successfully Navigated to OrangeHRM Application LogIn Page After Logout- PASS 
+2024-02-17 21:23:52,797 - Log -INFO -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********

@@ -1,0 +1,64 @@
+package com.practice;
+
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class Practice {
+	
+	
+	public static void main(String[] args) {
+		
+		String Facebookurladdress="https://m.facebook.com/login/?next&ref=dbl&fl&login_from_aymh=1&refid=8";
+		System.setProperty("webdriver.gecko.driver","./browserdriverfiles/geckodriver.exe");
+		   FirefoxDriver Driver = new FirefoxDriver();	
+		   Driver.get(Facebookurladdress);
+		   
+		   
+		   String Expected_FacebookLoginPageTitle="Log in to Facebook | Facebook";
+		   System.out.println("The Expected Title of Facebookloginpagetitle is:-"+Expected_FacebookLoginPageTitle);
+		   
+		   String Actual_FacebookLoginPageTitle=Driver.getTitle();
+		   System.out.println("The Actual Title of Facebookloginpagetitle is:-"+Actual_FacebookLoginPageTitle);
+		   
+		   if(Actual_FacebookLoginPageTitle.contains(Expected_FacebookLoginPageTitle))
+		   {
+			   System.out.println("Successfully Navigated to Facebook login Page:-Pass");
+			  
+		   }
+		   else
+		   {
+			   System.out.println("Failed to Navigate to Facebook Login Page:-Fail ");
+		   }
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+			
+	}
+
+}

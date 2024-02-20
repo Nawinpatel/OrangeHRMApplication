@@ -1,0 +1,194 @@
+package com.Orangehrm;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+
+import org.apache.commons.io.FileUtils;
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.NoSuchElementException;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.TimeoutException;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+public class ValidatingLoginFunctionality {
+
+    WebDriver driver;
+    String applicationURLAddress = "http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/dashboard";
+
+    public static void main(String[] args) throws InterruptedException, IOException {
+        ValidatingLoginFunctionality script = new ValidatingLoginFunctionality();
+        script.launchApplication();
+        script.validateLoginPanel();
+
+        FileInputStream logInTestDataFile = new FileInputStream("./src/com/Excelfiles/Excel.xlsx");
+        XSSFWorkbook workBook = new XSSFWorkbook(logInTestDataFile);
+        XSSFSheet logInTestDataSheet = workBook.getSheet("LogInTestData");
+
+        int rowCount = logInTestDataSheet.getLastRowNum();
+        for (int rowIndex = 1; rowIndex <= rowCount; rowIndex++) {
+            Row testDataSheetRow = logInTestDataSheet.getRow(rowIndex);
+            script.executeLoginTest(testDataSheetRow);
+
+            // Add more test scenarios as needed
+        }
+
+        script.quitDriver();
+        logInTestDataFile.close();
+        workBook.close();
+    }
+
+    private void quitDriver() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void launchApplication() {
+        System.setProperty("webdriver.chrome.driver", "./browserdriverfiles/chromedriver.exe");
+        driver = new ChromeDriver();
+        driver.get(applicationURLAddress);
+        driver.manage().window().maximize();
+    }
+
+    public void validateLoginPanel() {
+        String expectedText = "LOGIN Panel";
+        System.out.println("The Expected Text of the Login Panel is: " + expectedText);
+
+        By loginPanelProperty = By.id("logInPanelHeading");
+        WebElement loginPanel = driver.findElement(loginPanelProperty);
+
+        String actualText = loginPanel.getText();
+        System.out.println("The Actual Text of the Login Panel is: " + actualText);
+
+        if (actualText.equals(expectedText)) {
+            System.out.println("Successfully Navigated to the Login Panel - PASS");
+        } else {
+            System.out.println("Failed to Navigate to the Login Panel - FAIL");
+        }
+    }
+
+    public void executeLoginTest(Row testDataSheetRow) throws IOException, InterruptedException {
+        // Extracting test data
+        Cell userNameTestDataCell = testDataSheetRow.getCell(4);
+        String userNameTestData = userNameTestDataCell.getStringCellValue();
+
+        Cell passwordTestDataCell = testDataSheetRow.getCell(5);
+        String passwordTestData = passwordTestDataCell.getStringCellValue();
+
+        // Login steps
+        By userNameProperty = By.id("txtUsername");
+        WebElement userName = driver.findElement(userNameProperty);
+        userName.sendKeys(userNameTestData);
+
+        By passwordProperty = By.name("txtPassword");
+        WebElement password = driver.findElement(passwordProperty);
+        password.sendKeys(passwordTestData);
+
+        By logInButtonProperty = By.className("button");
+        WebElement logInButton = driver.findElement(logInButtonProperty);
+        logInButton.click();
+
+        // Validating after login
+        try {
+            // Use ExpectedConditions to wait for presence of the "Admin" link
+            WebDriverWait wait = new WebDriverWait(driver, 10);
+            WebElement welcomeAdmin = wait.until(ExpectedConditions.presenceOfElementLocated(By.partialLinkText("Admin")));
+
+            String expectedHomePageText = "Welcome";
+            System.out.println("The Expected Text of the HomePage is: " + expectedHomePageText);
+
+            String actualHomePageText = welcomeAdmin.getText();
+            System.out.println("The Actual Text of the HomePage is: " + actualHomePageText);
+
+            if (actualHomePageText.contains(expectedHomePageText)) {
+                System.out.println("Successfully Navigated to HomePage - PASS");
+
+                welcomeAdmin.click();
+                testDataSheetRow.createCell(7).setCellValue("Welcome");
+                testDataSheetRow.createCell(8).setCellValue("Successfully Navigated to HomePage - PASS");
+
+                Thread.sleep(2000);
+
+                By logoutProperty = By.linkText("Logout");
+                WebElement logout = driver.findElement(logoutProperty);
+                logout.click();
+            } else {
+                System.out.println("Failed to Navigate to HomePage - FAIL");
+                testDataSheetRow.createCell(7).setCellValue("Not Matched");
+                testDataSheetRow.createCell(8).setCellValue("Failed to Navigate to HomePage - FAIL");
+            }
+        } catch (TimeoutException e) {
+            // Handle TimeoutException by capturing a screenshot and logging the error
+            System.out.println("Exception while validating after login: " + e.getMessage());
+            captureScreenshot(testDataSheetRow);
+        
+    }
+}
+
+	private void captureScreenshot(Row testDataSheetRow) throws InterruptedException {
+		// TODO Auto-generated method stub
+		
+		
+		
+		
+		try {
+		    // Use ExpectedConditions to wait for visibility of the "Admin" link
+		    WebDriverWait wait = new WebDriverWait(driver, 10);
+		    WebElement welcomeAdmin = wait.until(ExpectedConditions.visibilityOfElementLocated(By.partialLinkText("Admin")));
+
+		    String expectedHomePageText = "Welcome";
+		    System.out.println("The Expected Text of the HomePage is: " + expectedHomePageText);
+
+		    String actualHomePageText = welcomeAdmin.getText();
+		    System.out.println("The Actual Text of the HomePage is: " + actualHomePageText);
+
+		    if (actualHomePageText.contains(expectedHomePageText)) {
+		        System.out.println("Successfully Navigated to HomePage - PASS");
+
+		        // Use JavascriptExecutor to click on the "Admin" link
+		        JavascriptExecutor executor = (JavascriptExecutor) driver;
+		        executor.executeScript("arguments[0].click();", welcomeAdmin);
+
+		        testDataSheetRow.createCell(7).setCellValue("Welcome");
+		        testDataSheetRow.createCell(8).setCellValue("Successfully Navigated to HomePage - PASS");
+
+		        Thread.sleep(2000);
+
+		        By logoutProperty = By.linkText("Logout");
+		        WebElement logout = driver.findElement(logoutProperty);
+		        logout.click();
+		    } else {
+		        System.out.println("Failed to Navigate to HomePage - FAIL");
+		        testDataSheetRow.createCell(7).setCellValue("Not Matched");
+		        testDataSheetRow.createCell(8).setCellValue("Failed to Navigate to HomePage - FAIL");
+		    }
+		} catch (TimeoutException e) {
+		    // Handle TimeoutException by capturing a screenshot and logging the error
+		    System.out.println("Exception while validating after login: " + e.getMessage());
+		    captureScreenshot(testDataSheetRow);
+		}
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}

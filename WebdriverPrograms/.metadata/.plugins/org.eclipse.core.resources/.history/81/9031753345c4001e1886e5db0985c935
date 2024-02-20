@@ -1,0 +1,44 @@
+package com.Orangehrm;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class BaseTest {
+	
+	
+	WebDriver driver;
+    String  ApplicationURLAddress="http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/dashboard";
+	
+	
+	void ApplicationUrlAddress() throws InterruptedException
+	{
+		
+        System.setProperty("webdriver.chrome.driver", "./browserdriverfiles/chromedriver.exe");
+        driver=new ChromeDriver();
+        driver.get(ApplicationURLAddress);
+        driver.manage().window().maximize();
+        Thread.sleep(3000);
+	
+	}
+	
+	
+	void ApplicationClose() {
+		
+		
+		driver.close();
+		
+		
+	}
+	
+	
+	
+	public static void main(String[] args) throws InterruptedException 
+	{
+		BaseTest test =  new BaseTest();
+		test.ApplicationUrlAddress();
+		test.ApplicationClose();
+		
+		
+	}
+
+}

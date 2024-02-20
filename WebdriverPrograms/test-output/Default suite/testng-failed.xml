@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.forParalleltesting.Add_Employee_Multiple_Functionality">
+        <methods>
+          <include name="pim_Test"/>
+          <include name="applicationLaunch"/>
+          <include name="OHRM_Login_functionality"/>
+          <include name="Loginpanelafterlogout"/>
+          <include name="add_EmployeeTest"/>
+          <include name="applicationClose"/>
+          <include name="add_NewEmployeeTest"/>
+        </methods>
+      </class> <!-- com.forParalleltesting.Add_Employee_Multiple_Functionality -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

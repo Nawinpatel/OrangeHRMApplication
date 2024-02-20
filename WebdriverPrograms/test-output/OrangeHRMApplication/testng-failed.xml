@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OrangeHRMApplication]">
+  <test thread-count="5" name="Login_functionality_withvalid_and_invalidTestdata(failed)">
+    <classes>
+      <class name="com.forParalleltesting.Login_functionality_withvalid_and_invalidTestdata">
+        <methods>
+          <include name="applicationLaunch"/>
+          <include name="applicationClose"/>
+          <include name="Login_functionality"/>
+        </methods>
+      </class> <!-- com.forParalleltesting.Login_functionality_withvalid_and_invalidTestdata -->
+    </classes>
+  </test> <!-- Login_functionality_withvalid_and_invalidTestdata(failed) -->
+</suite> <!-- Failed suite [OrangeHRMApplication] -->

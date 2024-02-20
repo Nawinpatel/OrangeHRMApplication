@@ -1,0 +1,22 @@
+<suite name="OrangeHRMApplication" parallel="tests">
+   
+    <test name="Login_functionality_withvalid_and_invalidTestdata">
+        <classes>
+           <class name="com.forParalleltesting.Login_functionality_withvalid_and_invalidTestdata"/>
+        </classes>
+   </test>
+   
+   <test name="Add_Employee_Multiple_Functionality">
+        <classes>
+           <class name="com.forParalleltesting.Add_Employee_Multiple_Functionality"/>
+        </classes>
+   </test>
+   
+   <test name="EmployeeList">
+        <classes>
+           <class name="com.forParalleltesting.EmployeeList"/>
+        </classes>
+   </test>
+   
+   
+</suite>
